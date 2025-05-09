@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "YOOM",
   description: "Video calling App",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/icons/logo.jfif",
   },
 };
 
@@ -27,7 +27,6 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
           },
           variables: {
             colorText: "#fff",
